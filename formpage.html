@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style_form.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<!--header  -->
+<body>
+  <!-- <div class="title">
+   <h3>SURVEY<h3>
+  </div> -->
+
+
+
+  <header>
+    <div id="logoProfile">
+        <div class="logoBox"><a href="./home.html"><button>Logo</a></button></div>
+        <h1>DOGGY TINDER</h1>
+        <div class="profileBox"><a href="./website.html"><button>Create Profile</a></button></div>
+    </div>
+</header>
+  <!--subtitle  -->
+
+     <!--div class="dogform" everything in the left  -->
+     <!--div class="questions" wraps everything from the left
+   and the right side  -->
+
+   <div class="info">
+     <h2>Find a Playmate!</h2></div>
+     <div class="infop."><h3>Please fill out the form below to request an option of dogs in
+       your area for Charlie to play with!</h3>
+  </div>
+
+    <div class="questions">
+     <div class="dogform">
+         <form>
+           Dog Name:<br>
+           <input type="text" name="Dog Name"><br>
+           Breed:<br>
+           <input type="text" name="Breed"><br>
+           Age:<br>
+           <input type="text" name="Age">
+        </form>
+      <div class="radio">
+        <form>
+          <h3>Sex:</h3>
+          <input type="radio" name="gender" value="male" checked> Male
+          <input type="radio" name="gender" value="female"> Female<br>
+        </form>
+      </div>
+        <div class="dropdown">
+          <label for="sel1">Energy Level:</label>
+          <select class="form-control" id="options">
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+          </select>
+        </div>
+    </div> <!-- END dogform -->
+<!--everything in the right  -->
+    <div class="dogformright">
+      <div class="menu2">
+        <label for="sel1">Size:</label>
+        <select class="form-control" id="options">
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+      </div>
+      <div class="place">
+        Location:<br>
+        <input type="text" name="Location">
+      </div>
+      <div class="days">
+        <h4>More Info:</h4>
+        <textarea rows='10' cols='30'>Your message:</textarea>
+    </div> <!-- END dogformright -->
+  </div> <!-- END questions -->
+  <br>
+  <div id="button"><a href="./dogs.html"><button>Find Playmates!</a></button></div>
+</body>
+</html>
